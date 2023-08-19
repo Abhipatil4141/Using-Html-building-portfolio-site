@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=League+Spartan:wght@300;400;500;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+    </style>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+        background-color: rgb(15, 15, 55);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style-type: none;
+        margin: 0 25px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(117, 117, 214);
+        font-size: 1.02rem;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 80px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 160px 0;
+      }
+
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 3rem;
+      }
+      .leftSection .button {
+        padding: 15px;
+      }
+      .leftSection .btn {
+        padding: 12px;
+        background-color: #12133f;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 10px;
+        cursor: pointer;
+      }
+      .rightSection img {
+        width: 80%;
+        /* margin: 50px 0; */
+      }
+
+      .purple {
+        color: rgb(114, 70, 155);
+      }
+      .text-gray {
+        color: gray;
+      }
+
+      #element {
+        color: rgb(114, 70, 155);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondSection h1 {
+        font-size: 1.7rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 76vw;
+        height: 2px;
+        margin: 56px;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 150px;
+      }
+      .img-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: rgb(10, 10, 21);
+        height: 153px;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+        width: 132px;
+      }
+
+      footer .footer-right {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Abhi Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home </a></li>
+            <li><a href="/">About </a></li>
+            <li><a href="/">Services </a></li>
+            <li><a href="/">Projects </a></li>
+            <li><a href="/">ContactMe </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi , My name is <span class="purple">Abhi</span> And am a
+          <div>Passionate</div>
+
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="pngwing.com.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img
+              class="img-top"
+              src="html5-logo-image-logo-html-7.png"
+              alt=""
+            />
+            <div class="vertical-title">HTML developer 2019-2020</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
+              reprehenderit laudantium eius debitis nam nulla alias sequi
+              pariatur? Delectus voluptatum soluta mollitia maxime?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="2-2-php-logo-png.png" alt="" />
+            <div class="vertical-title">php developer 2021-2022</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
+              reprehenderit laudantium eius debitis nam nulla alias sequi
+              pariatur? Delectus voluptatum soluta mollitia maxime?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="Front-end-logo-color@2x.png" alt="" />
+            <div class="vertical-title">FrontEnd developer 2022-2022</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
+              reprehenderit laudantium eius debitis nam nulla alias sequi
+              pariatur? Delectus voluptatum soluta mollitia maxime?
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="img-top" src="images.jpeg" alt="" />
+            <div class="vertical-title">Fullstack developer 2023-present</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
+              reprehenderit laudantium eius debitis nam nulla alias sequi
+              pariatur? Delectus voluptatum soluta mollitia maxime?
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Abhi's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>about</li>
+
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>about</li>
+
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-four">
+          <ul>
+            <li>Home</li>
+            <li>about</li>
+
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-right">
+        Copyright &#169; abhisportfolio.com | All rights reserverd
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web developer", "web design", "Responsive design"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
